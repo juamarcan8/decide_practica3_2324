@@ -142,6 +142,7 @@ class VotingTestCase(BaseTestCase):
                 mods.post('store', json=data)
         return clear
 
+    #edit
     '''
     def test_complete_voting(self):
         v = self.create_voting()
